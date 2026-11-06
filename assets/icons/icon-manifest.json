@@ -1,0 +1,23 @@
+{
+  "name": "Hard Windows Icon Suite",
+  "master": "/assets/icons/hard-logo.svg",
+  "monochrome": "/assets/icons/hard-logo-mono.svg",
+  "installerBanner": "/assets/icons/hard-installer-banner.svg",
+  "icoFile": "/assets/icons/hard.ico",
+  "resolutions": [
+    { "size": 16, "use": "Windows File Explorer small icon, Taskbar Tray" },
+    { "size": 24, "use": "Windows Taskbar normal DPI (100%)" },
+    { "size": 32, "use": "Windows File Explorer List / Detail mode, Alt+Tab (100%)" },
+    { "size": 48, "use": "Windows Desktop standard icon (100% scale)" },
+    { "size": 64, "use": "Windows High-DPI taskbar (150%-200%)" },
+    { "size": 128, "use": "Windows Start Menu medium tile, High-DPI Desktop" },
+    { "size": 256, "use": "Windows File Explorer Extra Large icons, Store / AppxManifest" }
+  ],
+  "palette": {
+    "background": "#0f172a",
+    "accentTeal": "#2dd4bf",
+    "accentDarkTeal": "#0d9488",
+    "border": "#334155",
+    "white": "#f8fafc"
+  }
+}

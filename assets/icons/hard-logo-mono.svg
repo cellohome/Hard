@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <!-- Monochrome Minimal Hard Logo for Windows Taskbar / System Tray -->
+  <rect width="256" height="256" rx="56" fill="#000000" />
+  <g transform="translate(0, 4)">
+    <rect x="64" y="56" width="42" height="136" rx="10" fill="#ffffff" />
+    <rect x="150" y="56" width="42" height="136" rx="10" fill="#ffffff" />
+    <rect x="106" y="110" width="44" height="28" fill="#ffffff" />
+    <polygon points="128,116 136,124 136,132 128,136 120,132 120,124" fill="#000000" />
+  </g>
+</svg>

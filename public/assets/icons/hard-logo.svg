@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="tealGlow" x1="64" y1="48" x2="192" y2="208" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2dd4bf" />
+      <stop offset="60%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+    <linearGradient id="facetHighlight" x1="128" y1="48" x2="192" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0.2" />
+    </linearGradient>
+    <radialGradient id="centerCore" cx="128" cy="128" r="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5eead4" />
+      <stop offset="70%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#115e59" />
+    </radialGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0d9488" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <rect width="256" height="256" rx="56" fill="url(#shieldGrad)" />
+  <rect width="254" height="254" x="1" y="1" rx="55" stroke="#334155" stroke-width="2" stroke-opacity="0.6" />
+
+  <g filter="url(#subtleGlow)" transform="translate(0, 4)">
+    <path d="M 64 68 C 64 61.37 69.37 56 76 56 L 94 56 C 100.63 56 106 61.37 106 68 L 106 180 C 106 186.63 100.63 192 94 192 L 76 192 C 69.37 192 64 186.63 64 180 Z" fill="url(#tealGlow)" />
+    <path d="M 150 68 C 150 61.37 155.37 56 162 56 L 180 56 C 186.63 56 192 61.37 192 68 L 192 180 C 192 186.63 186.63 192 180 192 L 162 192 C 155.37 192 150 186.63 150 180 Z" fill="url(#tealGlow)" />
+    <path d="M 106 110 L 150 110 L 150 138 L 106 138 Z" fill="url(#centerCore)" />
+    <path d="M 76 56 L 94 56 L 106 68 L 106 82 L 94 70 L 64 70 L 64 68 Z" fill="url(#facetHighlight)" />
+    <path d="M 162 56 L 180 56 L 192 68 L 192 82 L 180 70 L 150 70 L 150 68 Z" fill="url(#facetHighlight)" />
+    <polygon points="128,114 138,124 138,134 128,140 118,134 118,124" fill="#f0fdfa" opacity="0.95" />
+    <circle cx="128" cy="127" r="2.5" fill="#0f766e" />
+  </g>
+</svg>

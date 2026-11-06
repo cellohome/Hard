@@ -1,0 +1,27 @@
+[package]
+name = "hard-desktop"
+version = "1.0.0"
+description = "Clean, optimize, and understand your Windows PC."
+authors = ["Hard Core Team"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = ["tray-icon"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sysinfo = "0.31"
+trash = "5.1"
+tokio = { version = "1", features = ["full"] }
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = [
+    "Win32_System_SystemInformation",
+    "Win32_System_Performance",
+    "Win32_Storage_FileSystem",
+    "Win32_UI_Shell",
+    "Win32_Foundation",
+    "Win32_Security"
+] }
